@@ -1,0 +1,61 @@
+.bar2{
+    display: flex;
+    justify-content: space-around;
+    margin-left: .5rem;
+    margin-top: .5rem;
+    position:absolute;
+    bottom:6rem;
+    width:95%;
+}
+.title2{
+    display: block;
+    flex: 1;
+    margin-top: -1.8rem;
+    text-align: center;
+}
+
+.form2{
+    width:80%;
+    margin:0 auto;
+    font-size: 3rem;
+}
+.box2{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.cart{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    height: 18vh;
+    position:relative;
+}
+
+.sel{
+    width:6rem;
+    height:6rem;
+    borderRadius:50%;
+    border: 2px solid black;
+    backgroundColor:white
+}
+
+.total{
+    width:108%;
+    margin: 0 auto 0 0.5rem;
+    font-size: 3rem;
+}
+.card2{
+    margin: 2rem auto 0;
+    width: 30rem;
+    border-radius:20px;
+}
+
+.glass{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}

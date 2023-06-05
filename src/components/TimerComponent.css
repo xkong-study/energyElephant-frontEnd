@@ -1,0 +1,53 @@
+.grid-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 6rem;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+@keyframes move_pre {
+    from {
+        transform: translateY(-40%);
+    }
+    to {
+        transform: translateY(-120%);
+    }
+}
+
+
+@keyframes move {
+    from {
+        transform: translateY(60%);
+    }
+    to {
+        transform: translateY(-50%);
+    }
+}
+
+.grid-item.flipped {
+    background-color: #eaeaea;
+}
+
+.number{
+    animation: move 1s infinite linear;
+}
+
+.number_pre{
+    animation: move_pre 1s infinite linear;
+}
+
+.timer {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+}

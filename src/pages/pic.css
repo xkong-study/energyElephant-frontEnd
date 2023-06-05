@@ -1,0 +1,23 @@
+.modify{
+ height:35%;
+ width: 100%;
+ background: rgba(89, 89, 89, 0.62);
+ border-radius: 16px;
+ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+ backdrop-filter: blur(5px);
+ -webkit-backdrop-filter: blur(5px);
+ border: 1px solid rgba(138, 138, 138, 0.3);
+ position:absolute;
+ bottom:3.5rem
+}
+.head{
+ display:flex;
+ justify-content: space-between;
+ margin:.5rem;
+}
+.color{
+ display:flex;
+ justify-content: flex-start;
+ align-items: center;
+ overflow-x: scroll;
+}

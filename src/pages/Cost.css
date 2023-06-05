@@ -1,0 +1,33 @@
+.title_cost{
+    display: block;
+    width: 7rem;
+    flex: 1;
+    margin-top: -1.8rem;
+    margin-left:50%;
+    transform: translate(-45%,0px);
+}
+.total1{
+    width:100%;
+    margin: 10px 5% auto;
+    font-size: 3rem;
+}
+
+.cart1{
+    background: rgba(255, 255, 255, 0.69);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    height:100%;
+    width:95%;
+    left:50%;
+    position:relative;
+    transform: translate(-50%,0);
+}
+
+.icon1{
+    margin-left: 0.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+}

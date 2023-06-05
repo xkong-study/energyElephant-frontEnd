@@ -1,0 +1,69 @@
+.card{
+    display: block;
+    width: 100%;
+    height: 80%;
+    margin: auto 0;
+}
+.run{
+    color: #3987E6;
+    position: relative;
+    display: flex;
+    left: 50%;
+    alignItems: center;
+    fontWeight: bold;
+    animation: move-right 1s ease-in-out forwards;
+}
+
+@keyframes move-right {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(100%);
+    }
+}
+.title3{
+    display: block;
+    width: 6rem;
+    flex: 1;
+    margin-left:50%;
+    transform: translate(-45%,0px);
+}
+
+.header{
+    width:100%;
+    background-image: url('/Users/kong/Desktop/smile_SelfieApp/public/assets/energyElephant.png');
+    height:80%;
+    background-size: cover;
+    background-position: 20%;
+}
+
+.father{
+    display: flex;
+    flexDirection: row;
+    justify-content: space-around;
+    height:20%;
+    margin:3rem 0.5rem auto;
+}
+
+.son{
+    background: rgba(255, 255, 255, 0.26);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.4px);
+    -webkit-backdrop-filter: blur(4.9px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width:45%;
+    color: #363636;
+    font-size: calc(16px + 0.5vw);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    font-weight: bold;
+    cursor:pointer;
+}
+.drag{
+    overflow-y: scroll;
+    height:45%;
+}
